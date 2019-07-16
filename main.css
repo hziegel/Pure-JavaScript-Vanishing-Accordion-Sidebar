@@ -1,0 +1,108 @@
+body {
+    background-color: #cdefd2;
+    margin: 0;
+    font-family: Helvetica,Arial;
+}
+
+#banner {
+  overflow: hidden;
+  background-color: #002255;
+  background: url("http://manusrushti.com/images/2.jpg");
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 100px;
+  border-bottom: 1px solid white;
+  z-index: 12;
+  text-align: left;
+  font-size: 48px;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+
+
+#homebubble {
+                position: relative;
+                width: 20%;
+                height: 40%;
+                min-width: 300px;
+                max-width: 1000px;
+                min-height: 200px;
+                max-height: 1000px;
+                background-color: #002255;
+                float: left;
+                left: 50px;
+                top: 50px;
+                border-radius: 0px 12px 0px 12px;
+                padding: 20px;
+                color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #222;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 100px; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  border-bottom: 1px solid white;
+  z-index: 11;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-decoration-color: green;
+}
+
+.navbar a:hover {
+  background:#792;
+  color: white;
+}
+
+nav {
+  line-height: 1.5;
+  margin-top: 145px;
+  float-top: auto;
+  width: 200px;
+  float:left;
+  position: relative;
+  display:none;
+  z-index:10;
+}
+
+li {
+                list-style-type:none;
+                padding: 5px;
+                border-bottom: 1px solid #555;
+                color: white;
+                text-decoration: none;
+}
+
+a {
+                color: white;
+                text-decoration: none;
+}
+
+.first {
+                background-color:#455;
+                border-radius: 6px 0px 0px 6px;
+}
+
+.second {
+                background-color:#681;
+                margin-left: 5px;
+                display:none;
+                border-radius: 6px 0px 0px 6px;
+}
+
+.third {
+                background-color:#796;
+                margin-left: 10px;
+                display:none;
+}
